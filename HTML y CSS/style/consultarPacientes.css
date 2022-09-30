@@ -1,0 +1,144 @@
+body{
+    margin:0;
+}
+.header{
+    background-color: antiquewhite;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.principal{
+    width: 80%;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 150px;
+    align-items: center;
+}
+
+.aside{
+    border-right: 2px solid sandybrown;
+    width:15%;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.listItem{
+    display: flex;
+    list-style: none;
+    margin: 10px 10px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;   
+}
+
+.listItem:hover{
+    background-color: papayawhip;
+    border-radius: 5px;
+}
+.links{
+    text-decoration: none;
+}
+
+.cuadroTexto{
+    border-radius: 5px;
+    border: 0.5px solid;
+    margin: 8px 0;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.cuadroDocumento{
+    width: 20px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.enviar{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    background-color: #FFAB91;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+.enviar:hover{
+    background-color: #FF5722;
+    /*transform: scale(1.1);
+    /* transform: scale(1.2) rotate(70deg); permite tambien hacer rotaciones en la pagina*/ 
+}
+
+.defaul{
+    margin: 20px;
+}
+
+table{
+    border: solid 1px peachpuff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+th {
+    border: solid 1px palegoldenrod;
+    background-color:rgb(245, 244, 235) ;
+    border-radius: 10px;
+    margin: 0;
+    padding: 8px;
+    font-size: 13px;
+}
+
+td{
+    
+    border: solid 1px rgb(252, 147, 135);
+    background-color: #ffefea;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px; 
+}
+
+
+.footer{
+    background-color:rgb(244, 210, 147);
+    width: 100%;
+    height: 10vh;
+    align-content: center;
+}
+
+.footer h2{
+    text-align: center;
+    font-size: 13px;
+}

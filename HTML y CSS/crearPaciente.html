@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+    <link rel="stylesheet" href="./style/styleCrearPaciente.css">
+
+    <title>Sly Home Care-crear paciente</title>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="logo" class="logo">
+    </header>
+    <nav class="navbar"></nav>
+    
+    <main class="main" id="main">
+        <aside class="aside">
+            <ul class="list">
+                <li class="listItem"><a href="./crearPaciente.html" class="links">Paciente</a></li>
+                <li class="listItem">Acompañante</li>
+                <li class="listItem">Medico</li>
+                <li class="listItem">Enfermero</li>
+                <li class="listItem">Auxiliar</li>
+            </ul>
+        </aside>
+
+        <section name="principal" class="principal" id="principal">
+            <form name="registro" class="formulario" method="post" id="formulario">
+                <label for="documento">
+                    Documento
+                    <input type="number" name="id" class="cuadroTexto">
+                </label>
+
+                <label for="nombres">
+                    <span>Nombres:</span>
+                    <input type="text" id="nombre" name="nombres" class="cuadroTexto">
+                </label>
+
+                <label for="apellidos">
+                    <span>Apellidos:</span>
+                    <input type="text" id="apellidos" name="apellidos" class="cuadroTexto">
+                </label>
+
+                <label for="fechaNacimiento">
+                    <span>Fecha Nacimiento:</span>
+                    <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="cuadroTexto">
+                </label>
+
+                <label for="genero">Genero
+                    <select name="genero" id="genero" class="cuadroTexto">
+                        <option value="Seleccione una opcion">Escoja una opcion</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select>
+                </label>
+
+                <label for="direccion">
+                    <span>Direccion</span>
+                    <input type="text" id="direccion" name="direccion" class="cuadroTexto">
+                </label>
+
+                <label for="longitud">
+                    <span>Longitud:</span>
+                    <input type="text" id="longitud" name="longitud" class="cuadroTexto">
+                </label>
+
+                <label for="latitud">
+                    <span>Latitud:</span>
+                    <input type="text" id="latitud" name="latitud" class="cuadroTexto">
+                </label>
+
+                <label for="telefono">
+                    <span>Telefono:</span>
+                    <input type="number" id="telefono" name="telefono" class="cuadroTexto">
+                </label>
+
+                <label for="ciudad">
+                    <span>Ciudad:</span>
+                    <input type="text" id="ciudad" name="ciudad" class="cuadroTexto">
+                </label>
+
+                <label for="email">
+                    <span>email:</span>
+                    <input type="email" id="email" name="email" class="cuadroTexto">
+                </label>
+
+                <input type="submit" value="Enviar" class="enviar"/>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Sly Home Care</h2>
+    </footer>
+
+    <script src="./js/registro.js"></script>
+</body>
+</html> 

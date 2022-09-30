@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style/reset.css"> -->
+    <link rel="stylesheet" href="./style/consultarUnicaStyle.css">
+    <title>Consultar Paciente</title>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="logo" class="logo">
+    </header>
+    <nav class="navbar"></nav>
+    <main class="main">
+        <aside class="aside">
+            <ul class="list">
+                <li class="listItem"><a href="./crearPaciente.html" class="links">Paciente</a></li>
+                <li class="listItem">Acompañante</li>
+                <li class="listItem">Medico</li>
+                <li class="listItem">Enfermero</li>
+                <li class="listItem">Auxiliar</li>
+            </ul>
+        </aside>
+        <section>
+            <form name="registro">
+                <!-- <label for="numero">number:</label><br> -->
+                <input type="number" id="numero" placeholder="Documento" class="cuadroTexto"><br>
+            
+                <button type="button" id="button" class="enviar">enviar</button>
+            </form>
+            
+            <table class="default" id ="default">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Fecha de Naciemiento</th>
+                            <th>Genero</th>
+                            <th>Direccion</th>
+                            <th>Longitud</th>
+                            <th>Latitud</th>
+                            <th>Telefono</th>
+                            <th>Ciudad</th>
+                            <th>email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpoTabla">
+                    </tbody>
+            </table>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <h2>Sly Home Care</h2>
+    </footer>
+
+   <script src="./js/consultarUnicoPaciente.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.header{
+    background-color:grey;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar{
+    background-color: magenta;
+    width: 100%;
+    height: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer{
+    background-color:orange;
+    width: 100%;
+    height: 50px;
+}

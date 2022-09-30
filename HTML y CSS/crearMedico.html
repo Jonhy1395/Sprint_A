@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style/style.css"> -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/styleCrearPaciente.css">
+    <title>Crear Paciente</title>
+</head>
+<body>
+    <header class="header">
+        <img src="/imagenes/logo.png" alt="logo" class="logo">
+    </header>
+    <nav class="navbar"></nav>
+    
+    <main class="main">
+        <aside class="aside">
+            <ul class="list">
+                <li class="listItem"><a href="./crearPaciente.html" class="links">Paciente</a></li>
+                <li class="listItem">Acompañante</li>
+                <li class="listItem">Medico</li>
+                <li class="listItem">Enfermero</li>
+                <li class="listItem">Auxiliar</li>
+            </ul>
+        </aside>
+        <section class="principal">
+            <form action="" class="formulario">
+                <label for="documento">
+                    Documento
+                    <input type="text" class="cuadroTexto">
+                    <select name="documento" id="documento" class="cuadroDocumento">
+                        <option value="Seleccione una opcion">Escoja una opcion</option>
+                        <option value="C.C.">C.C.</option>
+                        <option value="T.I.">T.I.</option>
+                        <option value="C.E.">C.E.</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="registro">Registro</option>
+                        <!-- <option value="Prefiero no decirlo">Golang</option> -->
+                    </select>
+                </label>
+
+                <label for="nombres">
+                    <span>Nombres:</span>
+                    <input type="text" id="nombre" class="cuadroTexto">
+                </label>
+
+                <label for="apellidos">
+                    <span>Apellidos:</span>
+                    <input type="text" id="apellidos" class="cuadroTexto">
+                </label>
+
+                <label for="genero">Genero
+                    <select name="generos" id="genero" class="cuadroTexto">
+                        <option value="Seleccione una opcion">Escoja una opcion</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <!-- <option value="Prefiero no decirlo">Golang</option> -->
+                    </select>
+                </label>
+
+                <label for="registroMedico">
+                    <span>Registro Medico</span>
+                    <input type="text" id="registroMedico" class="cuadroTexto">
+                </label>
+
+                <label for="especialidad">
+                    <span>Especialidad:</span>
+                    <input type="text" id="especialidad" class="cuadroTexto">
+                </label>
+
+                <input type="submit" value="Enviar" class="enviar"/>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+</html>
